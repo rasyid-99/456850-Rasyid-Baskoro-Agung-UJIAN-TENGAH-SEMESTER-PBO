@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace UJIAN_TENGAH_SEMESTER_PBO
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 y = new Form1();
+            y.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 y = new Form4();
+            y.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form5 y = new Form5();
+            y.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form6 y = new Form6();
+            y.Show();
+        }
+    }
+}
